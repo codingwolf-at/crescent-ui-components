@@ -1,0 +1,146 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Global Variables */
+:root {
+    --primary: #e5e5e5;
+    --secondary: #14213d;
+}
+/* Default Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+/* ---------- ALERTS ---------- */
+.alert {
+    position: relative;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    margin-top: 1rem;
+}
+
+.alert-primary {
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+.alert-secondary {
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+/* ---------- SPACING CLASSES ---------- */
+
+/* Padding Classes */
+.p-1 {
+    padding: 1rem !important;
+}
+
+.px-1 {
+    padding: 0rem 1rem !important;
+}
+
+.py-1 {
+    padding: 1rem 0rem !important;
+}
+
+.p-2 {
+    padding: 2rem !important;
+}
+
+.px-2 {
+    padding: 0rem 2rem !important;
+}
+
+.py-2 {
+    padding: 2rem 0rem !important;
+}
+
+.p-3 {
+    padding: 3rem !important;
+}
+
+.px-3 {
+    padding: 0rem 3rem !important;
+}
+
+.py-3 {
+    padding: 3rem 0rem !important;
+}
+
+.p-4 {
+    padding: 4rem !important;
+}
+
+.px-4 {
+    padding: 0rem 4rem !important;
+}
+
+.py-4 {
+    padding: 4rem 4rem !important;
+}
+
+/* Margin Classes */
+.m-1 {
+    margin: 1rem !important;
+}
+
+.mx-1 {
+    margin: 0rem 1rem !important;
+}
+
+.my-1 {
+    margin: 1rem 0rem !important;
+}
+
+.m-2 {
+    margin: 2rem !important;
+}
+
+.mx-2 {
+    margin: 0rem 2rem !important;
+}
+
+.my-2 {
+    margin: 2rem 0rem !important;
+}
+
+.m-3 {
+    margin: 3rem !important;
+}
+
+.mx-3 {
+    margin: 0rem 3rem !important;
+}
+
+.my-3 {
+    margin: 3rem 0rem !important;
+}
+
+.m-4 {
+    margin: 4rem !important;
+}
+
+.mx-4 {
+    margin: 0rem 4rem !important;
+}
+
+.my-4 {
+    margin: 4rem 4rem !important;
+}
+
+/* ---------- TEXT UTILITIES ----------*/
+
+/* Center Text */
+
+.center {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
