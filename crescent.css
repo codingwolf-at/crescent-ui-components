@@ -169,6 +169,16 @@ body {
     min-width: auto;
 }
 
+/* ---------- IMAGES ---------- */
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+.rounded {
+    border-radius: 50%;
+}
+
 /* ---------- SPACING CLASSES ---------- */
 
 /* Padding Classes */
