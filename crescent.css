@@ -125,6 +125,11 @@ body {
     color: var(--white);
 }
 
+.btn-dark {
+    background-color: var(--dark);
+    color: var(--white)
+}
+
 .btn-success {
     background-color: var(--success);
     color: var(--white);
