@@ -5,11 +5,12 @@
 :root {
     --white: #FAFAFA;
     --black: #18181B;
-    --primary: #e5e5e5;
-    --secondary: #14213d;
+    --primary: #0B5ED7;
+    --secondary: #5C636A;
     --success: #10B981;
     --danger: #EF4444;
     --warning: #EAB308;
+    --dark: #1C1F23 ;
     --info: #0EA5E9;
     --link: #1D4ED8;
 }
@@ -36,12 +37,17 @@ body {
 
 .alert-primary {
     background-color: var(--primary);
-    color: var(--secondary);
+    color: var(--white);
 }
 
 .alert-secondary {
     background-color: var(--secondary);
-    color: var(--primary);
+    color: var(--white);
+}
+
+.alert-dark {
+    background-color: var(--dark);
+    color: var(--white);
 }
 
 .alert-success {
