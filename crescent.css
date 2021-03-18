@@ -163,7 +163,7 @@ body {
 }
 
 .btn-fab {
-    background-color: var(--link);
+    background-color: var(--dark);
     color: var(--white);
     border-radius: 50%;
     min-width: auto;
