@@ -32,6 +32,31 @@ body {
     width: 4.5rem;
 }
 
+/* ----------- BADGE ---------- */
+.badge {
+    position: relative;
+    text-align: center;
+    color: var(--white);
+    background-color: var(--danger);
+    padding: 0.25rem;
+    font-size: xx-small;
+    border-radius: 0.25rem;
+    bottom: 2.4rem;
+    right: 1.5rem;
+}
+
+.badge-avatar {
+    position: relative;
+    text-align: center;
+    color: var(--white);
+    background-color: var(--danger);
+    padding: 0.25rem;
+    font-size: xx-small;
+    border-radius: 50%;
+    bottom: 3.6rem;
+    right: 1.5rem;
+}
+
 /* ---------- ALERTS ---------- */
 .alert {
     position: relative;
