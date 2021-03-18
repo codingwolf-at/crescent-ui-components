@@ -26,6 +26,12 @@ body {
 }
 
 
+/* ---------- AVATAR ---------- */
+.avatar {
+    border-radius: 50%;
+    width: 4.5rem;
+}
+
 /* ---------- ALERTS ---------- */
 .alert {
     position: relative;
