@@ -117,12 +117,12 @@ body {
 
 .btn-primary {
     background-color: var(--primary);
-    color: var(--secondary);
+    color: var(--white);
 }
 
 .btn-secondary {
     background-color: var(--secondary);
-    color: var(--primary);
+    color: var(--white);
 }
 
 .btn-success {
