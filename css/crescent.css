@@ -244,11 +244,13 @@ body {
 }
 
 .mx-1 {
-    margin: 0rem 1rem !important;
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
 }
 
 .my-1 {
-    margin: 1rem 0rem !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
 }
 
 .m-2 {
@@ -256,11 +258,13 @@ body {
 }
 
 .mx-2 {
-    margin: 0rem 2rem !important;
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
 }
 
 .my-2 {
-    margin: 2rem 0rem !important;
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
 }
 
 .m-3 {
@@ -268,11 +272,13 @@ body {
 }
 
 .mx-3 {
-    margin: 0rem 3rem !important;
+    margin-left: 3rem !important;
+    margin-right: 3rem !important;
 }
 
 .my-3 {
-    margin: 3rem 0rem !important;
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
 }
 
 .m-4 {
@@ -280,11 +286,13 @@ body {
 }
 
 .mx-4 {
-    margin: 0rem 4rem !important;
+    margin-left: 4rem !important;
+    margin-right: 4rem !important;
 }
 
 .my-4 {
-    margin: 4rem 4rem !important;
+    margin-top: 4rem !important;
+    margin-bottom: 4rem !important;
 }
 
 /* ---------- TEXT UTILITIES ----------*/
