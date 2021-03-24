@@ -61,9 +61,16 @@ body {
 .alert {
     position: relative;
     width: 80%;
-    padding: 1rem;
+    padding: 1rem 2rem;
     border-radius: 0.25rem;
     margin: 1rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.alert-btn {
+    cursor: pointer;
+    font-weight: 700;
 }
 
 .alert-primary {
