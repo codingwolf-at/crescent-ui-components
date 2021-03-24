@@ -1,0 +1,290 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Global Variables */
+:root {
+    --white: #FAFAFA;
+    --black: #18181B;
+    --primary: #0B5ED7;
+    --secondary: #5C636A;
+    --success: #10B981;
+    --danger: #EF4444;
+    --warning: #EAB308;
+    --dark: #1C1F23 ;
+    --info: #0EA5E9;
+    --link: #1D4ED8;
+}
+/* Default Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+/* ---------- AVATAR ---------- */
+.avatar {
+    border-radius: 50%;
+    width: 4.5rem;
+}
+
+/* ----------- BADGE ---------- */
+.badge {
+    position: relative;
+    text-align: center;
+    color: var(--white);
+    background-color: var(--danger);
+    padding: 0.25rem;
+    font-size: xx-small;
+    border-radius: 0.25rem;
+    bottom: 2.4rem;
+    right: 1.5rem;
+}
+
+.badge-avatar {
+    position: relative;
+    text-align: center;
+    color: var(--white);
+    background-color: var(--danger);
+    padding: 0.25rem;
+    font-size: xx-small;
+    border-radius: 50%;
+    bottom: 3.6rem;
+    right: 1.5rem;
+}
+
+/* ---------- ALERTS ---------- */
+.alert {
+    position: relative;
+    width: 80%;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    margin: 1rem auto;
+}
+
+.alert-primary {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.alert-secondary {
+    background-color: var(--secondary);
+    color: var(--white);
+}
+
+.alert-dark {
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+.alert-success {
+    background-color: var(--success);
+    color: var(--white);
+}
+
+.alert-danger {
+    background-color: var(--danger);
+    color: var(--white);
+}
+
+.alert-warning {
+    background-color: var(--warning);
+    color: var(--black);
+}
+
+.alert-info {
+    background-color: var(--info);
+    color: var(--white);
+}
+
+
+/* ---------- BUTTON ---------- */
+.btn {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    padding: 0.8rem 1.4rem;
+    margin: 1rem 0.5rem;
+    border-radius: 0.25rem;
+    min-width: 6rem;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.btn-secondary {
+    background-color: var(--secondary);
+    color: var(--white);
+}
+
+.btn-dark {
+    background-color: var(--dark);
+    color: var(--white)
+}
+
+.btn-success {
+    background-color: var(--success);
+    color: var(--white);
+}
+
+.btn-danger {
+    background-color: var(--danger);
+    color: var(--white);
+}
+
+.btn-warning {
+    background-color: var(--warning);
+    color: var(--black);
+}
+
+.btn-info {
+    background-color: var(--info);
+    color: var(--white);
+}
+
+.btn-block {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-link {
+    background-color: var(--white);
+    color: var(--link);
+}
+
+.btn-fab {
+    background-color: var(--dark);
+    color: var(--white);
+    border-radius: 50%;
+    min-width: auto;
+}
+
+/* ---------- IMAGES ---------- */
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+.rounded {
+    border-radius: 50%;
+}
+
+/* ---------- SPACING CLASSES ---------- */
+
+/* Padding Classes */
+.p-1 {
+    padding: 1rem !important;
+}
+
+.px-1 {
+    padding: 0rem 1rem !important;
+}
+
+.py-1 {
+    padding: 1rem 0rem !important;
+}
+
+.p-2 {
+    padding: 2rem !important;
+}
+
+.px-2 {
+    padding: 0rem 2rem !important;
+}
+
+.py-2 {
+    padding: 2rem 0rem !important;
+}
+
+.p-3 {
+    padding: 3rem !important;
+}
+
+.px-3 {
+    padding: 0rem 3rem !important;
+}
+
+.py-3 {
+    padding: 3rem 0rem !important;
+}
+
+.p-4 {
+    padding: 4rem !important;
+}
+
+.px-4 {
+    padding: 0rem 4rem !important;
+}
+
+.py-4 {
+    padding: 4rem 4rem !important;
+}
+
+/* Margin Classes */
+.m-1 {
+    margin: 1rem !important;
+}
+
+.mx-1 {
+    margin: 0rem 1rem !important;
+}
+
+.my-1 {
+    margin: 1rem 0rem !important;
+}
+
+.m-2 {
+    margin: 2rem !important;
+}
+
+.mx-2 {
+    margin: 0rem 2rem !important;
+}
+
+.my-2 {
+    margin: 2rem 0rem !important;
+}
+
+.m-3 {
+    margin: 3rem !important;
+}
+
+.mx-3 {
+    margin: 0rem 3rem !important;
+}
+
+.my-3 {
+    margin: 3rem 0rem !important;
+}
+
+.m-4 {
+    margin: 4rem !important;
+}
+
+.mx-4 {
+    margin: 0rem 4rem !important;
+}
+
+.my-4 {
+    margin: 4rem 4rem !important;
+}
+
+/* ---------- TEXT UTILITIES ----------*/
+
+/* Center Text */
+
+.center {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
