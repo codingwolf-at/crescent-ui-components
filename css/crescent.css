@@ -177,6 +177,26 @@ body {
     min-width: auto;
 }
 
+/* ---------- CARD ---------- */
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px 20px grey;
+    width: 15rem;
+    margin: 1rem;
+}
+
+.card-img-top {
+    flex-shrink: 0;
+    width: 100%;
+    border-style: none;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
 /* ---------- IMAGES ---------- */
 .img-fluid {
     width: 100%;
