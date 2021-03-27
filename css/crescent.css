@@ -13,6 +13,8 @@
     --dark: #1C1F23 ;
     --info: #0EA5E9;
     --link: #1D4ED8;
+    --grey: #E5E7EB;
+
 }
 /* Default Styling */
 * {
@@ -203,12 +205,22 @@ body {
 
 /* ---------- IMAGES ---------- */
 .img-fluid {
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
 .rounded {
     border-radius: 50%;
+}
+
+
+/* ---------- INPUT ---------- */
+.input {
+    border: none;
+    background-color: var(--grey);
+    padding: 1rem;
+    outline: none;
+    font-style: inherit;
 }
 
 /* ---------- NAVIGATION ---------- */
