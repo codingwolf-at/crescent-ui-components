@@ -363,15 +363,6 @@ body {
     margin-bottom: 4rem !important;
 }
 
-/* ---------- TEXT UTILITIES ----------*/
-
-/* Center Text */
-
-.center {
-    margin-left: auto !important;
-    margin-right: auto !important;
-}
-
 /* -------- TYPOGRAPHY --------- */
 .display-1 {
     font-size: 4.5rem;
@@ -399,4 +390,8 @@ body {
 
 .lead {
     font-size: 1.3rem;
+}
+
+.center {
+    text-align: center;
 }
