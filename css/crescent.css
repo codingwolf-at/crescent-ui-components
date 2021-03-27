@@ -396,3 +396,7 @@ body {
 .display-6 {
     font-size: 2rem;
 }
+
+.lead {
+    font-size: 1.3rem;
+}
