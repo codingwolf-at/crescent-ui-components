@@ -203,6 +203,10 @@ body {
     padding: 1rem;
 }
 
+.price {
+    font-family:monospace;
+}
+
 /* ---------- IMAGES ---------- */
 .img-fluid {
     max-width: 100%;
@@ -248,6 +252,7 @@ body {
 
 .nav-brand {
     font-size: 2rem;
+    cursor: pointer;
 }
 
 .nav-link-container {
