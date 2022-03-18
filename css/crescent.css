@@ -424,3 +424,12 @@ body {
 .center {
     text-align: center;
 }
+
+/* -------- BACKGROUND --------- */
+.bg-light {
+    background-color: var(--grey-color);
+}
+
+.bg-dark {
+    background-color: var(--dark-color);
+}
