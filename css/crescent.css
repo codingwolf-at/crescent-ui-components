@@ -442,6 +442,7 @@ body {
     font-family: inherit;
     padding: 0.5rem 1rem;
     border-radius: 1.5rem;
+    cursor: pointer;
 }
 
 .chip-light {
@@ -451,4 +452,5 @@ body {
     font-family: inherit;
     padding: 0.5rem 1rem;
     border-radius: 1.5rem;
+    cursor: pointer;
 }
