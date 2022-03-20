@@ -433,3 +433,20 @@ body {
 .bg-dark {
     background-color: var(--dark-color);
 }
+
+/* -------- CHIP --------- */
+.chip-dark {
+    background-color: var(--dark-color);
+    color: var(--grey-color);
+    font-family: inherit;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+}
+
+.chip-light {
+    background-color: var(--grey-color);
+    color: var(--dark-color);
+    font-family: inherit;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+}
